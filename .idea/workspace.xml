@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5765de2-4606-4821-873b-4833abe85944" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cCkQQHDFxEN011FcRfQCdu5KJw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pyFlask" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\pero_USP\static\item" />
+      <recent name="C:\project\pero_USP\static" />
+      <recent name="C:\project\pero_USP\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pero_USP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pero_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pero_USP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pero_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="routes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pero_USP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/routes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.routes" />
+        <item itemvalue="Python.pero_app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5765de2-4606-4821-873b-4833abe85944" name="Default Changelist" comment="" />
+      <created>1590039945281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590039945281</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3140" y="121" key="FileChooserDialogImpl" timestamp="1590067753772">
+      <screen x="1920" y="-234" width="1920" height="1200" />
+    </state>
+    <state x="3140" y="121" key="FileChooserDialogImpl/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1590067753772" />
+    <state width="1897" height="412" key="GridCell.Tab.0.bottom" timestamp="1590070034002">
+      <screen x="1920" y="-234" width="1920" height="1200" />
+    </state>
+    <state width="1897" height="412" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1590070034002" />
+    <state width="1897" height="412" key="GridCell.Tab.0.center" timestamp="1590070034001">
+      <screen x="1920" y="-234" width="1920" height="1200" />
+    </state>
+    <state width="1897" height="412" key="GridCell.Tab.0.center/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1590070034001" />
+    <state width="1897" height="412" key="GridCell.Tab.0.left" timestamp="1590070034001">
+      <screen x="1920" y="-234" width="1920" height="1200" />
+    </state>
+    <state width="1897" height="412" key="GridCell.Tab.0.left/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1590070034001" />
+    <state width="1897" height="412" key="GridCell.Tab.0.right" timestamp="1590070034001">
+      <screen x="1920" y="-234" width="1920" height="1200" />
+    </state>
+    <state width="1897" height="412" key="GridCell.Tab.0.right/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1590070034001" />
+    <state width="1897" height="412" key="GridCell.Tab.1.bottom" timestamp="1590070034002">
+      <screen x="1920" y="-234" width="1920" height="1200" />
+    </state>
+    <state width="1897" height="412" key="GridCell.Tab.1.bottom/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1590070034002" />
+    <state width="1897" height="412" key="GridCell.Tab.1.center" timestamp="1590070034002">
+      <screen x="1920" y="-234" width="1920" height="1200" />
+    </state>
+    <state width="1897" height="412" key="GridCell.Tab.1.center/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1590070034002" />
+    <state width="1897" height="412" key="GridCell.Tab.1.left" timestamp="1590070034002">
+      <screen x="1920" y="-234" width="1920" height="1200" />
+    </state>
+    <state width="1897" height="412" key="GridCell.Tab.1.left/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1590070034002" />
+    <state width="1897" height="412" key="GridCell.Tab.1.right" timestamp="1590070034002">
+      <screen x="1920" y="-234" width="1920" height="1200" />
+    </state>
+    <state width="1897" height="412" key="GridCell.Tab.1.right/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1590070034002" />
+    <state x="2381" y="10" key="SettingsEditor" timestamp="1590108032589">
+      <screen x="1920" y="-234" width="1920" height="1200" />
+    </state>
+    <state x="2381" y="10" key="SettingsEditor/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1590108032589" />
+    <state x="2543" y="31" width="672" height="678" key="search.everywhere.popup" timestamp="1590059786863">
+      <screen x="1920" y="-234" width="1920" height="1200" />
+    </state>
+    <state x="2543" y="31" width="672" height="678" key="search.everywhere.popup/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1590059786863" />
+  </component>
+</project>
