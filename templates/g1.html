@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu May 21 2020 07:45:33 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="5eb5642cd3681dc081588e97" data-wf-site="5eb502a160b6213b25fc8db9">
+<!--  Last Published: Sun May 24 2020 14:46:38 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5eca41ced52f43775e72b49d" data-wf-site="5eb502a160b6213b25fc8db9">
 <head>
     <meta charset="utf-8">
     <title>Untitled</title>
@@ -35,20 +35,21 @@ body, html {
 <body class="body">
 <section id="feature-section" class="feature-section"><img
         src="{{ url_for('static', filename='images/pero-usp2.png') }}"
-        srcset="{{ url_for('static', filename='images/pero-usp2-p-500.png') }} 500w" sizes="160px" alt="" class="image-3">
+        srcset="{{ url_for('static', filename='images/pero-usp2-p-500.png') }} 500w, {{ url_for('static', filename='images/pero-usp2.png') }} 600w"
+        sizes="160px" alt="" class="image-3">
     <div class="flex-container w-container">
         <div class="feature-image-mask">
             <div class="text-block">User Environment Analysis</div>
             <div class="text-block-2">1 Analyze your gesture usage type.
             </div>
             <img src="{{ url_for('static', filename='images/main-SW.png') }}" width="600"
-                 srcset="{{ url_for('static', filename='images/main-SW-p-500.png') }} 500w"
-                 sizes="(max-width: 479px) 350px, (max-width: 767px) 323.09375px, (max-width: 991px) 199.5px, 350px"
-                 alt="" class="feature-image-2"></div>
+                 srcset="{{ url_for('static', filename='images/main-SW-p-500.png') }} 500w, {{ url_for('static', filename='images/main-SW-p-800.png') }} 800w, {{ url_for('static', filename='images/main-SW-p-1080.png') }} 1080w, {{ url_for('static', filename='images/main-SW.png') }} 1200w"
+                 sizes="(max-width: 479px) 350px, (max-width: 991px) 323.09375px, 350px" alt="" class="feature-image-2">
+        </div>
         <div class="g1-div">
             <h2 data-w-id="22365216-86bd-8d86-f83a-6e9017592419" class="heading-4">Please answer some questions</h2>
             <p data-w-id="22365216-86bd-8d86-f83a-6e901759241b" class="paragraph-5">to analyze your gesture usage type.
-            </p><a data-w-id="5f081dc7-1fde-4f91-fc7a-7c849c62118d" href="/g2" class="ok-button w-button">OK</a>
+            </p><a data-w-id="5f081dc7-1fde-4f91-fc7a-7c849c62118d" href="/g2" class="g1-ok-button w-button">OK</a>
         </div>
     </div>
     <p class="paragraph-3">Ver 0.1<br>Last update 2020.05.08<br><strong>© palmcat corp. All Rights
