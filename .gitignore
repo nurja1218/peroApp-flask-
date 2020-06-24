@@ -1,7 +1,15 @@
 palmcat_icon.ico
 .idea
 __pycache__
-gestureShortcut.py
+static/set_db/gestureShortcut.py
 set_db
 output
 pero_app.py
+db_function.py
+currentURL.py
+custom_command_v1.js
+index_1.html
+index_v2.html
+m2_test.html
+test.py
+dist

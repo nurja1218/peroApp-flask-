@@ -2090,7 +2090,7 @@ a {
 }
 
 .feature-image-mask {
-  width: 45%;
+  width: auto;
   margin-right: 0px;
   padding-top: 0px;
   -webkit-align-self: flex-start;
@@ -2101,9 +2101,9 @@ a {
 .feature-image {
   width: 400px;
   height: 100%;
-  max-width: 400%;
+  max-width: none;
   margin-right: 0px;
-  margin-left: -40px;
+  margin-left: 0px;
   padding-left: 0px;
   -o-object-fit: contain;
   object-fit: contain;
@@ -2126,7 +2126,7 @@ a {
   color: #ff9022;
   font-size: 23px;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: -0.05em;
 }
 
@@ -2344,7 +2344,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 0px;
-  margin-left: 30px;
+  margin-left: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2456,17 +2456,17 @@ a {
 }
 
 .image-2 {
-  width: 470px;
-  max-width: 470px;
-  margin-bottom: 3vh;
+	  width: 300px;
+  max-width: 600px;
+  margin-bottom: 20px;
 }
 
 .image-3 {
   position: absolute;
   left: 20px;
   top: 10px;
-  width: 160px;
-  margin-left: 10px;
+  width: 260px;
+  margin-left: 0px;
 }
 
 .html-embed {
@@ -4965,7 +4965,7 @@ a {
 }
 
 .m-app-div {
-  overflow: scroll;
+  overflow: auto;
   width: 290px;
   height: 588px;
   margin-top: 10px;
@@ -4974,9 +4974,21 @@ a {
   padding-right: 10px;
   padding-left: 0px;
   border-top: 1px solid #000;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 .m-app-button {
+  padding-left: 30px;
+  border-right: 0.3px solid #969696;
+  border-bottom: 0.3px solid #969696;
+  border-radius: 0px;
+  background-color: rgba(185, 185, 185, 0.5);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.m-app-button-none {
   padding-left: 30px;
   border-right: 0.3px solid #969696;
   border-bottom: 0.3px solid #969696;
@@ -5048,6 +5060,24 @@ a {
 
 .m-app-button-clicked:hover {
   border-radius: 0px;
+}
+
+.div-block-18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.image-10 {
+  width: 200px;
+  max-width: 50%;
+  margin-left: 20px;
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 991px) {

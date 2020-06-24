@@ -365,7 +365,7 @@ label {
 fieldset[disabled] .w-input,
 fieldset[disabled] .w-select {
   cursor: not-allowed;
-  background-color: #eeeeee;
+  background-color: #4b4a4a;
 }
 textarea.w-input,
 textarea.w-select {
@@ -1170,7 +1170,7 @@ textarea.w-select {
 .w-lightbox-container {
   height: 100%;
   overflow: auto;
-  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: hidden;
 }
 .w-lightbox-content {
   position: relative;
