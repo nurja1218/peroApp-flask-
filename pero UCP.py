@@ -15,11 +15,12 @@ def resource_path(relative_path):
 app = Flask(__name__, static_url_path="", static_folder=resource_path(
     'static'), template_folder=resource_path("templates"))
 
+
 from routes import *
 
 
 def main():
-    init_gui(app, port=2001, width=1220, height=720,
+    init_gui(app, port=2045, width=1220, height=720,
              window_title=" ", icon="./static/icon/palmcat.png", argv=None)
 
 

@@ -2,9 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4a9be58-ce16-4d4b-b7e4-87830b31398d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pero_app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pero UCP.py" beforeDir="false" afterPath="$PROJECT_DIR$/pero UCP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/jeongmos-initial-project.webflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/jeongmos-initial-project.webflow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/webflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/webflow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/goodhand-p-1080.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/goodhand-p-1080.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/goodhand-p-500.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/goodhand-p-500.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/goodhand-p-800.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/goodhand-p-800.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/goodhand.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/goodhand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/index-f-p-500.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/index-f-p-500.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/index-f.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/index-f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/webflow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/c1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/c1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/c2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/c2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/f1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/f1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/f2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/f2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/f3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/f3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/g1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/g1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/g2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/g2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/g3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/g3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/g4.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/g4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/g5.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/g5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/m2-app2_data.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/m2-app2_data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/m2-app7_data.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/m2-app7_data.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,26 +53,28 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/js" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\pero_UCP\static\js" />
+      <recent name="C:\project\pero_UCP\static\css" />
+      <recent name="C:\project\pero_UCP\templates" />
+      <recent name="C:\project\pero_UCP\static\set_db" />
       <recent name="C:\project\pero_USP\static\js" />
-      <recent name="C:\project\pero_USP\templates" />
-      <recent name="C:\project\pero_USP\static\images" />
-      <recent name="C:\project\pero_USP\static\set_db" />
-      <recent name="C:\project\pero_USP\static\pero_control" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\project\pero_UCP\static\set_db" />
+      <recent name="C:\project\pero_UCP" />
       <recent name="C:\project\pero_USP\static\set_db" />
       <recent name="C:\project\pero_USP\static\pero_control" />
       <recent name="C:\project\pero_USP\static\js" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pero UCP (1)">
+  <component name="RunManager" selected="Python.pero UCP">
     <configuration name="db_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pero_USP" />
+      <module name="pero_UCP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -69,50 +94,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gestureShortcut (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pero_UCP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\USER\anaconda3\envs\pyflask\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static/set_db" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static/set_db/gestureShortcut.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pero UCP (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pero_UCP" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\USER\anaconda3\envs\pyflask\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pero UCP.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="pero UCP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pero_USP" />
+      <module name="pero_UCP" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -123,7 +106,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\project\pero_USP\pero UCP.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pero UCP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,13 +136,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="touchCognz (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pero_UCP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static/set_db" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static/set_db/touchCognz.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="touchCognz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pero_UCP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\project\pero_UCP\static\set_db\touchCognz.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pero UCP (1)" />
-        <item itemvalue="Python.gestureShortcut (1)" />
-        <item itemvalue="Python.routes" />
         <item itemvalue="Python.pero UCP" />
+        <item itemvalue="Python.routes" />
         <item itemvalue="Python.db_function" />
+        <item itemvalue="Python.touchCognz (1)" />
+        <item itemvalue="Python.touchCognz" />
       </list>
     </recent_temporary>
   </component>
@@ -181,10 +206,11 @@
       <screen x="1920" y="-234" width="1920" height="1200" />
     </state>
     <state x="2765" y="228" key="#Notifications/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1591254973083" />
-    <state x="2605" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592894994311">
-      <screen x="1920" y="-234" width="1920" height="1200" />
+    <state x="2833" y="480" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593591421042">
+      <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2605" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1592894994311" />
+    <state x="2833" y="480" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.720/1920.0.2560.1440@1920.0.2560.1440" timestamp="1593591421042" />
     <state x="2610" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592979668864">
       <screen x="1920" y="-234" width="1920" height="1200" />
     </state>
@@ -205,34 +231,44 @@
       <screen x="1920" y="-234" width="1920" height="1200" />
     </state>
     <state x="2745" y="113" width="529" height="505" key="EnvironmentVariablesDialog/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1592893354957" />
-    <state x="2660" y="121" key="FileChooserDialogImpl" timestamp="1592893428229">
+    <state x="2660" y="121" key="FileChooserDialogImpl" timestamp="1593766504528">
       <screen x="1920" y="-234" width="1920" height="1200" />
     </state>
-    <state x="2660" y="121" key="FileChooserDialogImpl/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1592893428229" />
-    <state width="1899" height="244" key="GridCell.Tab.0.bottom" timestamp="1592976339199">
+    <state x="2660" y="121" key="FileChooserDialogImpl/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1593766504528" />
+    <state x="2907" y="426" key="FileChooserDialogImpl/0.0.1280.720/1920.0.2560.1440@1920.0.2560.1440" timestamp="1593590681128" />
+    <state width="1899" height="337" key="GridCell.Tab.0.bottom" timestamp="1594128701110">
       <screen x="1920" y="-234" width="1920" height="1200" />
     </state>
-    <state width="1899" height="244" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1592976339199" />
-    <state width="1259" height="126" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1592713343687" />
-    <state width="1899" height="244" key="GridCell.Tab.0.center" timestamp="1592976339199">
+    <state width="1899" height="337" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1594128701110" />
+    <state width="1259" height="253" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.0.2560.1440@0.0.1280.720" timestamp="1593589321781" />
+    <state width="2539" height="425" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.0.2560.1440@1920.0.2560.1440" timestamp="1593594156198" />
+    <state width="1259" height="179" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1594033095128" />
+    <state width="1899" height="337" key="GridCell.Tab.0.center" timestamp="1594128701110">
       <screen x="1920" y="-234" width="1920" height="1200" />
     </state>
-    <state width="1899" height="244" key="GridCell.Tab.0.center/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1592976339199" />
-    <state width="1259" height="126" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1592713343686" />
-    <state width="1899" height="244" key="GridCell.Tab.0.left" timestamp="1592976339198">
+    <state width="1899" height="337" key="GridCell.Tab.0.center/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1594128701110" />
+    <state width="1259" height="253" key="GridCell.Tab.0.center/0.0.1280.720/1920.0.2560.1440@0.0.1280.720" timestamp="1593589321781" />
+    <state width="2539" height="425" key="GridCell.Tab.0.center/0.0.1280.720/1920.0.2560.1440@1920.0.2560.1440" timestamp="1593594156198" />
+    <state width="1259" height="179" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1594033095128" />
+    <state width="1899" height="337" key="GridCell.Tab.0.left" timestamp="1594128701110">
       <screen x="1920" y="-234" width="1920" height="1200" />
     </state>
-    <state width="1899" height="244" key="GridCell.Tab.0.left/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1592976339198" />
-    <state width="1259" height="126" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1592713343686" />
-    <state width="1899" height="244" key="GridCell.Tab.0.right" timestamp="1592976339199">
+    <state width="1899" height="337" key="GridCell.Tab.0.left/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1594128701110" />
+    <state width="1259" height="253" key="GridCell.Tab.0.left/0.0.1280.720/1920.0.2560.1440@0.0.1280.720" timestamp="1593589321780" />
+    <state width="2539" height="425" key="GridCell.Tab.0.left/0.0.1280.720/1920.0.2560.1440@1920.0.2560.1440" timestamp="1593594156197" />
+    <state width="1259" height="179" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1594033095128" />
+    <state width="1899" height="337" key="GridCell.Tab.0.right" timestamp="1594128701110">
       <screen x="1920" y="-234" width="1920" height="1200" />
     </state>
-    <state width="1899" height="244" key="GridCell.Tab.0.right/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1592976339199" />
-    <state width="1259" height="126" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1592713343686" />
-    <state x="2381" y="10" key="SettingsEditor" timestamp="1592892336914">
+    <state width="1899" height="337" key="GridCell.Tab.0.right/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1594128701110" />
+    <state width="1259" height="253" key="GridCell.Tab.0.right/0.0.1280.720/1920.0.2560.1440@0.0.1280.720" timestamp="1593589321781" />
+    <state width="2539" height="425" key="GridCell.Tab.0.right/0.0.1280.720/1920.0.2560.1440@1920.0.2560.1440" timestamp="1593594156198" />
+    <state width="1259" height="179" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1594033095128" />
+    <state x="2381" y="10" key="SettingsEditor" timestamp="1594170058598">
       <screen x="1920" y="-234" width="1920" height="1200" />
     </state>
-    <state x="2381" y="10" key="SettingsEditor/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1592892336914" />
+    <state x="2381" y="10" key="SettingsEditor/0.0.1280.720/1920.-234.1920.1200@1920.-234.1920.1200" timestamp="1594170058598" />
+    <state x="2535" y="293" key="SettingsEditor/0.0.1280.720/1920.0.2560.1440@1920.0.2560.1440" timestamp="1593591326401" />
     <state x="2543" y="31" width="672" height="678" key="search.everywhere.popup" timestamp="1592901021735">
       <screen x="1920" y="-234" width="1920" height="1200" />
     </state>

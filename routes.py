@@ -1,12 +1,14 @@
 import os
 import sqlite3
 import subprocess
+import time
 
 import psutil
 from flask import Flask, render_template, request, redirect, url_for, make_response, jsonify, json
 
 from functools import wraps, update_wrapper
 from datetime import datetime
+
 
 # cache = Cache(config={'CACHE_TYPE': 'simple'})
 
@@ -64,6 +66,10 @@ def insertToCmdOption(ges_name, app_name):
                 % ','.join(ft_cmdIds))
     for row in cur:
         ft_cmdNames.append(row[0])
+
+    # 현재 선택한 App에 매핑된 명령들 조회 구문
+
+
     # 현재 선택한 제스처에 매핑된 명령들 조회 구문
     # ges_name으로 ges_id(3개) 조회
     ges_ids = []
@@ -190,6 +196,10 @@ def UseSetDatabase(ges_name, app_name, touch, cmd_name):
 app = Flask(__name__, static_url_path='/static')
 # ui = FlaskUI(app)
 
+before_tdata = ()
+before_tname = ""
+touch_init = ""
+
 
 def nocache(view):
     @wraps(view)
@@ -209,25 +219,25 @@ def nocache(view):
 def index():
     # 1. gestureShortcut.exe를 무조건 process에서 삭제
     kill_process()
-    # 2. initializing 진행 여부 확인: table값 조회
-    cur.execute("SELECT init_state FROM Check_init")
-    init_state = cur.fetchall()[0][0]
-    print(init_state)
-    # 2-1. initializing 미진행: index.html을 return
-    if init_state == 0:
-        return render_template('index.html')
-    # 2-2. initializing 진행: gestureShortcut.exe을 실행 후 c2.html을 return
-    elif init_state == 1:
-        cur_path = os.path.dirname(os.path.abspath(__file__))
-        subprocess_list.append(
-        subprocess.Popen('%s\\static\\set_db\\gestureShortcut.exe' % cur_path, shell=True, encoding='utf-8'))
-        return render_template('c2.html')
+    return render_template('index_1.html')
 
 
 @app.route('/g1')
 @nocache
 def g1():
-    return render_template('g1.html')
+    # 2. initializing 진행 여부 확인: table값 조회
+    cur.execute("SELECT init_state FROM Check_init")
+    init_state = cur.fetchall()[0][0]
+    # print(init_state)
+    # 2-1. initializing 미진행: index.html을 return
+    if init_state == 0:
+        return render_template('g1.html')
+    # 2-2. initializing 진행: gestureShortcut.exe을 실행 후 c2.html을 return
+    elif init_state == 1:
+        cur_path = os.path.dirname(os.path.abspath(__file__))
+        subprocess_list.append(
+        subprocess.Popen('%s\\static\\set_db\\gestureShortcut.exe' % cur_path, shell=True, encoding='utf-8'))
+        return render_template('m2-app7_data.html')
 
 
 @app.route('/g2')
@@ -362,12 +372,107 @@ def c1_3():
 @app.route('/f1')
 @nocache
 def f1():
+    # subprocess로 터치 데이터 db에 삽입하는 프로그램 실행
     return render_template('f1.html')
+
+
+@app.route('/f1_a', methods=["GET", "POST"])
+@nocache
+def f1_ajax():
+    global before_tdata
+    global before_tname
+    trans_data = []
+    if request.method == "POST":
+        # f1페이지에서 데이터를 ajax로 받는 함수 필요(현재 터치 중인 손가락 데이터 받음)
+        touch = request.form["t_data"]
+        print(touch)
+        move_state = False
+        error_action = False
+        cur.execute("SELECT d1, d2, d3 FROM Touch_check")
+        row = cur.fetchall()[0]
+        cur.execute("SELECT COUNT(*) FROM User_touch WHERE touch_fin = '%s'" % touch)
+        ut_count = cur.fetchall()[0][0]
+        row_list = list(row)
+        row_list.append(touch)
+        # 현재 터치한 데이터가 맞는 범위 안에 들어왔는지 확인
+        if touch == 'index':
+            if (0 < int(row[0]) or int(row[1]) == 4) and int(row[2]) == 0:
+                if ut_count < 10:
+                    # 사용자 터치 initializing을 위해 데이터 삽입
+                    cur.execute("INSERT INTO User_touch(d1, d2, d3, touch_fin) VALUES (?, ?, ?, ?)", row_list)
+                    conn.commit()
+            else:
+                # 이전 터치 데이터와 현재 터치 데이터 비교
+                print(before_tdata)
+                if row != ('0', '0', '0') and row != before_tdata:
+                    error_action = True
+        elif touch == "middle":
+            if (int(row[0]) == 1 or 0 < int(row[1])) and int(row[2]) == 0:
+                if ut_count < 10:
+                    cur.execute("INSERT INTO User_touch(d1, d2, d3, touch_fin) VALUES (?, ?, ?, ?)", row_list)
+                    conn.commit()
+            else:
+                print(before_tdata)
+                if row != ('0', '0', '0') and row != before_tdata:
+                    error_action = True
+        elif touch == "ringAndlittle":
+            if (int(row[1]) == 1 or 0 < int(row[2])) and int(row[0]) == 0:
+                if ut_count < 10:
+                    cur.execute("INSERT INTO User_touch(d1, d2, d3, touch_fin) VALUES (?, ?, ?, ?)", row_list)
+                    conn.commit()
+            else:
+                print(before_tdata)
+                if row != ('0', '0', '0') and row != before_tdata:
+                    error_action = True
+        elif touch == "little":
+            if 0 < int(row[2]) and int(row[1]) == 0 and int(row[0]) == 0:
+                if ut_count < 10:
+                    cur.execute("INSERT INTO User_touch(d1, d2, d3, touch_fin) VALUES (?, ?, ?, ?)", row_list)
+                    conn.commit()
+            else:
+                print(before_tdata)
+                if row != ('0', '0', '0') and row != before_tdata:
+                    error_action = True
+        print(row)
+        before_tdata = row
+        cur.execute("SELECT COUNT(*) FROM User_touch WHERE touch_fin = '%s'" % touch)
+        ut_count = cur.fetchall()[0][0]
+        if 9 < ut_count:
+            move_state = True
+        if before_tname != "" and before_tname != touch:
+            error_action = True
+        before_tname = touch
+        print(move_state)
+        print(error_action)
+        # DB Table 데이터 초기화 후 return
+        trans_data.append(move_state)
+        trans_data.append(error_action)
+    return jsonify(list_of_data=trans_data)
+
+
+@app.route('/f1-1')
+@nocache
+def f1_1():
+    return render_template('f1-1.html')
+
+
+@app.route('/f1-2')
+@nocache
+def f1_2():
+    return render_template('f1-2.html')
+
+
+@app.route('/f1-3')
+@nocache
+def f1_3():
+    return render_template('f1-3.html')
 
 
 @app.route('/f2')
 @nocache
 def f2():
+    global touch_init
+    touch_init = "pass"
     return render_template('f2.html')
 
 
@@ -380,11 +485,15 @@ def f3():
 @app.route('/c2')
 @nocache
 def c2():
-    cur.execute("UPDATE Check_init SET init_state=1")
-    conn.commit()
-    cur_path = os.path.dirname(os.path.abspath(__file__))
-    subprocess_list.append(subprocess.Popen('%s\\static\\set_db\\gestureShortcut.exe' % cur_path, shell=True, encoding='utf-8'))
-    return render_template('c2.html')
+    if touch_init == "":
+        return redirect(url_for('f2'))
+    elif touch_init == "pass":
+        # 터치 데이터 db에 삽입하는 프로그램 종료
+        cur.execute("UPDATE Check_init SET init_state=1")
+        conn.commit()
+        cur_path = os.path.dirname(os.path.abspath(__file__))
+        subprocess_list.append(subprocess.Popen('%s\\static\\set_db\\gestureShortcut.exe' % cur_path, shell=True, encoding='utf-8'))
+        return render_template('c2.html')
 
 
 @app.route('/m2-app1')
@@ -394,6 +503,13 @@ def m1():
     return render_template('m2-app1_data.html')
 
 
+@app.route('/index_test')
+@nocache
+def it():
+    # windows
+    return render_template('index_test.html')
+
+
 @app.route('/m2-app-getData', methods=["GET", "POST"])
 @nocache
 def m1_getData():
@@ -401,7 +517,7 @@ def m1_getData():
         ges_name = request.form["gesture_data"]
         app_name = request.form["active_app"]
         cmd_group = insertToCmdOption(ges_name, app_name)
-        print(cmd_group)
+        # print(cmd_group)
     return jsonify(list_of_data=cmd_group)
 
 
@@ -414,10 +530,10 @@ def m1_data():
         touch = request.form["touch_data"]
         cmd_name = request.form["command"]
         app_name = request.form["active_app"]
-        print(ges_name)
-        print(touch)
-        print(cmd_name)
-        print(app_name)
+        # print(ges_name)
+        # print(touch)
+        # print(cmd_name)
+        # print(app_name)
         UseSetDatabase(ges_name, app_name, touch, cmd_name)
         resp = jsonify(success=True)
     return resp
@@ -438,8 +554,8 @@ def m2():
             elif cmd_group[i].split('_')[1] == 't4':
                 sel_cmds['touch4'] = cmd_group[i].split('_')[0]
             cmd_group[i] = cmd_group[i].split('_')[0]
-    print(cmd_group)
-    print(sel_cmds)
+    # print(cmd_group)
+    # print(sel_cmds)
     return render_template('m2-app2_data.html', options=cmd_group, sel_cmd=sel_cmds)
 
 
@@ -522,5 +638,5 @@ def m10():
 
 if __name__ == '__main__':
     app.debug = False
-    app.run(host="localhost", port="2001")
+    app.run(host="localhost", port="2044")
     # ui.run()

@@ -1,15 +1,16 @@
 palmcat_icon.ico
 .idea
 __pycache__
-static/set_db/gestureShortcut.py
-set_db
+static/set_db/gestureShortcut.exe
+static/set_db/UCP_Database.db
 output
 pero_app.py
 db_function.py
 currentURL.py
 custom_command_v1.js
-index_1.html
 index_v2.html
 m2_test.html
 test.py
 dist
+build
+pero UCP.spec
