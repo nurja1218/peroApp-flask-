@@ -20,7 +20,7 @@ from routes import *
 
 
 def main():
-    init_gui(app, port=2045, width=1220, height=720,
+    init_gui(app, port=2088, width=1200, height=705,
              window_title=" ", icon="./static/icon/palmcat.png", argv=None)
 
 

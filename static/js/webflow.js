@@ -111494,39 +111494,6 @@ Webflow.require("ix2").init({
       },
       createdOn: 1594044085376,
     },
-    "e-1357": {
-      id: "e-1357",
-      eventTypeId: "MOUSE_CLICK",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-59",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-1358",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-        id: "5efdf70642f1a0541936c431|f16c3810-38f6-93c9-5c6f-8092f2a5bd35",
-      },
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: null,
-        scrollOffsetUnit: null,
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1594042123815,
-    },
     "e-1358": {
       id: "e-1358",
       eventTypeId: "MOUSE_CLICK",
@@ -111537,7 +111504,7 @@ Webflow.require("ix2").init({
           delay: 0,
           easing: "",
           duration: 0,
-          actionListId: "a-61",
+          actionListId: "a-59",
           affectedElements: {},
           playInReverse: false,
           autoStopEventId: "e-1359",
@@ -111548,39 +111515,6 @@ Webflow.require("ix2").init({
         appliesTo: "ELEMENT",
         styleBlockIds: [],
         id: "5efdf70642f1a0541936c431|f16c3810-38f6-93c9-5c6f-8092f2a5bd35",
-      },
-      config: {
-        loop: false,
-        playInReverse: false,
-        scrollOffsetValue: null,
-        scrollOffsetUnit: null,
-        delay: null,
-        direction: null,
-        effectIn: null,
-      },
-      createdOn: 1594044085376,
-    },
-    "e-1359": {
-      id: "e-1359",
-      eventTypeId: "MOUSE_CLICK",
-      action: {
-        id: "",
-        actionTypeId: "GENERAL_START_ACTION",
-        config: {
-          delay: 0,
-          easing: "",
-          duration: 0,
-          actionListId: "a-59",
-          affectedElements: {},
-          playInReverse: false,
-          autoStopEventId: "e-1360",
-        },
-      },
-      mediaQueries: ["main", "medium", "small", "tiny"],
-      target: {
-        appliesTo: "ELEMENT",
-        styleBlockIds: [],
-        id: "5efed85755a73214e0b593de|f16c3810-38f6-93c9-5c6f-8092f2a5bd35",
       },
       config: {
         loop: false,
@@ -111613,6 +111547,72 @@ Webflow.require("ix2").init({
       target: {
         appliesTo: "ELEMENT",
         styleBlockIds: [],
+        id: "5efdf70642f1a0541936c431|f16c3810-38f6-93c9-5c6f-8092f2a5bd35",
+      },
+      config: {
+        loop: false,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1594044085376,
+    },
+    "e-1362": {
+      id: "e-1362",
+      eventTypeId: "MOUSE_CLICK",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-59",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-1363",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        appliesTo: "ELEMENT",
+        styleBlockIds: [],
+        id: "5efed85755a73214e0b593de|f16c3810-38f6-93c9-5c6f-8092f2a5bd35",
+      },
+      config: {
+        loop: false,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1594042123815,
+    },
+    "e-1364": {
+      id: "e-1364",
+      eventTypeId: "MOUSE_CLICK",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-61",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-1365",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        appliesTo: "ELEMENT",
+        styleBlockIds: [],
         id: "5efed85755a73214e0b593de|f16c3810-38f6-93c9-5c6f-8092f2a5bd35",
       },
       config: {
@@ -111626,8 +111626,8 @@ Webflow.require("ix2").init({
       },
       createdOn: 1594044085376,
     },
-    "e-1361": {
-      id: "e-1361",
+    "e-1366": {
+      id: "e-1366",
       eventTypeId: "MOUSE_CLICK",
       action: {
         id: "",
@@ -111639,7 +111639,7 @@ Webflow.require("ix2").init({
           actionListId: "a-59",
           affectedElements: {},
           playInReverse: false,
-          autoStopEventId: "e-1362",
+          autoStopEventId: "e-1367",
         },
       },
       mediaQueries: ["main", "medium", "small", "tiny"],
@@ -111659,8 +111659,8 @@ Webflow.require("ix2").init({
       },
       createdOn: 1594042123815,
     },
-    "e-1362": {
-      id: "e-1362",
+    "e-1368": {
+      id: "e-1368",
       eventTypeId: "MOUSE_CLICK",
       action: {
         id: "",
@@ -111672,7 +111672,7 @@ Webflow.require("ix2").init({
           actionListId: "a-61",
           affectedElements: {},
           playInReverse: false,
-          autoStopEventId: "e-1363",
+          autoStopEventId: "e-1369",
         },
       },
       mediaQueries: ["main", "medium", "small", "tiny"],
@@ -116339,6 +116339,190 @@ Webflow.require("ix2").init({
           actionItems: [
             {
               id: "a-61-n-6",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "swingTo",
+                duration: 200,
+                target: {
+                  selector: ".image-5",
+                  selectorGuids: ["09c29f62-56d0-8c2e-1b55-48986dd29af5"],
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "DEG",
+              },
+            },
+          ],
+        },
+      ],
+      createdOn: 1594044093880,
+      useFirstGroupAsInitialState: true,
+    },
+    "a-63": {
+      id: "a-63",
+      title: "popup",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-63-n",
+              actionTypeId: "TRANSFORM_MOVE",
+              config: {
+                delay: 0,
+                easing: "swingTo",
+                duration: 200,
+                target: {
+                  selector: ".div-block-21",
+                  selectorGuids: ["1a815daf-63e4-978d-0ccf-62ec7641a78a"],
+                },
+                xValue: 0,
+                xUnit: "PX",
+                yUnit: "PX",
+                zUnit: "PX",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-63-n-2",
+              actionTypeId: "TRANSFORM_MOVE",
+              config: {
+                delay: 0,
+                easing: "swingTo",
+                duration: 500,
+                target: {
+                  selector: ".div-block-21",
+                  selectorGuids: ["1a815daf-63e4-978d-0ccf-62ec7641a78a"],
+                },
+                xValue: -317,
+                xUnit: "PX",
+                yUnit: "PX",
+                zUnit: "PX",
+              },
+            },
+          ],
+        },
+      ],
+      createdOn: 1594042130862,
+      useFirstGroupAsInitialState: false,
+    },
+    "a-62": {
+      id: "a-62",
+      title: "shaking hands",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-62-n",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  selector: ".image-5",
+                  selectorGuids: ["09c29f62-56d0-8c2e-1b55-48986dd29af5"],
+                },
+                zValue: 0,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "DEG",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-62-n-2",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 200,
+                easing: "inOutSine",
+                duration: 100,
+                target: {
+                  selector: ".image-5",
+                  selectorGuids: ["09c29f62-56d0-8c2e-1b55-48986dd29af5"],
+                },
+                zValue: 10,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "DEG",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-62-n-5",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "inOutSine",
+                duration: 100,
+                target: {
+                  selector: ".image-5",
+                  selectorGuids: ["09c29f62-56d0-8c2e-1b55-48986dd29af5"],
+                },
+                zValue: -10,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "DEG",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-62-n-4",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "inOutSine",
+                duration: 100,
+                target: {
+                  selector: ".image-5",
+                  selectorGuids: ["09c29f62-56d0-8c2e-1b55-48986dd29af5"],
+                },
+                zValue: 10,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "DEG",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-62-n-3",
+              actionTypeId: "TRANSFORM_ROTATE",
+              config: {
+                delay: 0,
+                easing: "inOutSine",
+                duration: 100,
+                target: {
+                  selector: ".image-5",
+                  selectorGuids: ["09c29f62-56d0-8c2e-1b55-48986dd29af5"],
+                },
+                zValue: -10,
+                xUnit: "DEG",
+                yUnit: "DEG",
+                zUnit: "DEG",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-62-n-6",
               actionTypeId: "TRANSFORM_ROTATE",
               config: {
                 delay: 0,

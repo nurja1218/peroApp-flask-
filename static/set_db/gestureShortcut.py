@@ -12,9 +12,9 @@ from pynput import keyboard
 # 사용할 DB
 db_path = os.getcwd()
 print(db_path)
-conn = sqlite3.connect('%s\\static\\set_db\\UCP_Database.db' % db_path, check_same_thread=False)
 # subprocess로 실행시키면 실행 위치가 route와 같은 위치가 된다.
-# conn = sqlite3.connect('../set_db/UCP_Database.db', check_same_thread=False)
+# conn = sqlite3.connect('%s\\static\\set_db\\UCP_Database.db' % db_path, check_same_thread=False)
+conn = sqlite3.connect('../set_db/UCP_Database.db', check_same_thread=False)
 cur = conn.cursor()
 
 
@@ -109,9 +109,14 @@ class keyboardFunction:
 
     #########################################
     # Windows Default 단축키 실행 함수
-    def windowsDefault(self, action_key):
+    def windowsDefault(self, i_key, cmd_id):
+        print(i_key)
+        print(cmd_id)
+        cur.execute("SELECT shortcut FROM Command WHERE cmd_id=%s" % cmd_id)
+        action_key = cur.fetchall()[0][0]
+        self.keyAction.release(i_key)
         action_key = action_key.split("+")
-        # self.all_key에서 입력된 key의 keyboard 객체 value가져오기
+        print(action_key)
         for i in range(len(action_key)):
             for k in self.all_key:
                 if k.get(action_key[i]) is not None:
@@ -184,6 +189,8 @@ class keyboardFunction:
                         elif pb_name[1] in self.currentURL() and 'Netflix' in self.currentURL():
                             self.otherApplication(key, ac_c[1])
                             break
+                elif pb_name[0] == 'default':
+                    self.windowsDefault(key, ac_c[1])
 
     def execute(self, cur_key):
         print(cur_key)

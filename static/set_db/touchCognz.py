@@ -6,8 +6,8 @@ from pynput import keyboard
 # 사용할 DB
 db_path = os.getcwd()
 print(db_path)
-# conn = sqlite3.connect('%s\\static\\set_db\\UCP_Database.db' % db_path, check_same_thread=False)
-conn = sqlite3.connect('../set_db/UCP_Database.db', check_same_thread=False)
+conn = sqlite3.connect('%s\\static\\set_db\\UCP_Database.db' % db_path, check_same_thread=False)
+# conn = sqlite3.connect('../set_db/UCP_Database.db', check_same_thread=False)
 cur = conn.cursor()
 
 controller = keyboard.Controller()
